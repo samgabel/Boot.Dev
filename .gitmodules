@@ -1,0 +1,3 @@
+[submodule "static-site-generator"]
+	path = static-site-generator
+	url = https://github.com/samgabel/static-site-generator
