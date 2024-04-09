@@ -7,12 +7,21 @@
 
 This is my collection of practice code and projects from the Boot.Dev course. Course practice code is separated by language / topic.
 
-- python
+
 
 
 ## Projects
 
-These are my projects:
-
 - bookbot
 - static-site-generator
+
+
+
+
+## Practice Code
+
+- python
+    1. Basics
+    2. Object Oriented Programming
+    3. Functional Programming
+    4. Algorithms
