@@ -15,3 +15,4 @@ This is my collection of practice code and projects from the Boot.Dev course. Co
 These are my projects:
 
 - bookbot
+- static-site-generator
