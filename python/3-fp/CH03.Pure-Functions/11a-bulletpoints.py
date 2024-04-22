@@ -1,4 +1,6 @@
-# NOTE: This is tricky
+# See the (improved) version
+
+
 
 def markdown_to_text(doc_content):
     heading_removed = list(map(lambda x: x.lstrip("# "), doc_content.split("\n")))
