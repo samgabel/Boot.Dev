@@ -1,3 +1,6 @@
 [submodule "static-site-generator"]
 	path = static-site-generator
 	url = https://github.com/samgabel/static-site-generator
+[submodule "maze-solver"]
+	path = maze-solver
+	url = https://github.com/samgabel/maze-solver
