@@ -27,3 +27,6 @@ This is my collection of practice code and projects from the Boot.Dev course. Co
     3. Functional Programming
     4. Algorithms
     5. Data Structures
+
+- javascript
+    1. Basics
