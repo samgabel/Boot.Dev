@@ -4,3 +4,6 @@
 [submodule "maze-solver"]
 	path = maze-solver
 	url = https://github.com/samgabel/maze-solver
+[submodule "web-crawler"]
+	path = web-crawler
+	url = https://github.com/samgabel/web-crawler
