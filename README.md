@@ -15,6 +15,7 @@ This is my collection of practice code and projects from the Boot.Dev course. Co
 - bookbot
 - static-site-generator
 - maze-solver
+- web-crawler
 
 
 
