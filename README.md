@@ -32,3 +32,6 @@ This is my collection of practice code and projects from the Boot.Dev course. Co
 - javascript
     1. Basics
     2. HTTP
+
+- go
+    1. Basics

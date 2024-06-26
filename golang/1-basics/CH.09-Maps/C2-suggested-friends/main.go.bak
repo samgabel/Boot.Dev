@@ -1,0 +1,36 @@
+package main
+
+func findSuggestedFriends(username string, friendships map[string][]string) []string {
+	var suggestedFriends []string
+	suggestedFriendsMap := make(map[string]int)
+
+	// iterate over all direct friends
+	directFriendSlice := friendships[username]
+	for _, directFriend := range directFriendSlice {
+
+		// iterate over all indirect freinds and add them to the map
+		indirectFriendSlice := friendships[directFriend]
+		for _, indirectFriend := range indirectFriendSlice {
+			suggestedFriendsMap[indirectFriend]++
+		}
+	}
+
+	// we want to append the user to the directFirendsSlice for checking purposes
+	directFriendSlice = append(directFriendSlice, username)
+	outer:
+	for key := range suggestedFriendsMap {
+
+		// this loop is to block all keys that are either the `username` or the direct friends of the user
+		for _, block := range directFriendSlice {
+			if key == block {
+				continue outer
+			}
+		}
+
+		// append non-blocked users
+		suggestedFriends = append(suggestedFriends, key)
+	}
+
+	return suggestedFriends
+}
+
