@@ -7,3 +7,6 @@
 [submodule "web-crawler"]
 	path = web-crawler
 	url = https://github.com/samgabel/web-crawler
+[submodule "pokedex"]
+	path = pokedex
+	url = https://github.com/samgabel/pokedex
