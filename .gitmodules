@@ -10,3 +10,6 @@
 [submodule "pokedex"]
 	path = pokedex
 	url = https://github.com/samgabel/pokedex
+[submodule "web-server"]
+	path = golang/web-server
+	url = https://github.com/samgabel/web-server
